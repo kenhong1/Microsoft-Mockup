@@ -3,15 +3,14 @@
 } */
 
 .microsoft{
-    background-images: url("../img/top.png"); 
+    background-images: url("../img/fixed\ top.png"); 
 }
 
 main{ 
-    min-height: 100vh;
-    grid-gap: 0;
+    max-height: 100vh;
     margin: 0;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 2fr 2fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 2fr; 
     grid-template-columns: 1fr; 
     grid-template-areas:"one"
                         "two"
@@ -28,7 +27,7 @@ main{
 
 #one {
     grid-area: one; 
-    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 5.52.48\ PM.png"); 
+    background-image: url("../img/fixed\ top.png"); 
     background-position: center; 
     height: 50em;
     background-repeat: no-repeat;
@@ -135,7 +134,7 @@ main{
 
 #twelve{
     grid-area: twelve; 
-    background-image: url("../img/12.png");
+    background-image: url("../img/fixed.png");
     background-position: center;
     height: 50em;
     background-repeat: no-repeat;
