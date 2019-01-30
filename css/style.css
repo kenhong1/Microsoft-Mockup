@@ -1,0 +1,176 @@
+/* *{
+ border: 1px solid black; 
+} */
+
+.microsoft{
+    background-images: url("../img/top.png"); 
+}
+
+main{ 
+    min-height: 100vh;
+    grid-gap: 0;
+    margin: 0;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-areas:"one"
+                        "two"
+                        "three"
+                        "four"
+                        "five"
+                        "six"
+                        "seven" 
+                        "eight"
+                        "nine"
+                        "ten"
+                        "eleven"
+                        "twelve";}
+
+#one {
+    grid-area: one; 
+    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 5.52.48\ PM.png"); 
+    background-position: center; 
+    height: 50em;
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+#two {
+    grid-area: two;
+    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 9.21.18\ PM.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+#three {
+    grid-area: three;
+    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 9.21.23\ PM.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+#four {
+    grid-area: four;
+    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 9.21.28\ PM.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+#five {
+    grid-area: five;
+    background-image: url("../img/Screen\ Shot\ 2019-01-29\ at\ 9.21.34\ PM.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+#six {
+    grid-area: six;
+    background-image: url("../img/6.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+#seven {
+    grid-area: seven;
+    background-image: url("../img/7.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#eight {
+    grid-area: eight;
+    background-image: url("../img/8.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#nine{
+    grid-area: nine; 
+    background-image: url("../img/9.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#ten{
+    grid-area: ten;
+    background-image: url("../img/10.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+
+#eleven{
+    grid-area: eleven;
+    background-image: url("../img/11.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+#twelve{
+    grid-area: twelve; 
+    background-image: url("../img/12.png");
+    background-position: center;
+    height: 50em;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: contain;
+}
+
+
+
+@media screen and (min-width: 500px) {
+    main { 
+         grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  
+         grid-template-columns: 1fr 1fr; 
+         grid-template-areas: "one one"
+                              "two three "
+                              "four five"
+                              "six  six"
+                              "seven eight"
+                              "nine ten"
+                              "eleven eleven" 
+                              "twelve twelve";
+     }
+ }
+ 
+                           
+@media screen and (min-width: 700px) {
+    main { 
+         grid-template-rows: 20vh 1fr 1fr 1fr 1fr 1fr 1fr fr 1fr 1fr 1fr 10fr;
+         grid-template-columns: 1fr 1fr 1fr 1fr; 
+         grid-template-areas: "one one one one "
+                              "two three four five"
+                              "six six six six"
+                              "seven eight nine ten"
+                              "eleven eleven eleven eleven"
+                              "twelve twelve twelve twelve"; 
+ }
+ 
+
